@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Poppins);
+@import url(https://fonts.googleapis.com/css2?family=Recursive);
 
 body {
   background-color: #232830;
@@ -15,8 +16,9 @@ body>* {
 header {
   display: flex;
   flex-direction: column;
-  height: 50px;
-  color: white
+  color: white;
+  border-bottom: 3px solid #4D4D4D;
+  padding-bottom: 100px;
 }
 
 .head {
@@ -39,7 +41,27 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   height: 400px;
 }
 
-.foot h1 {}
+.foot>* {
+  margin: 0;
+}
+
+.foot img {
+  max-width: 200px;
+}
+
+.foot>*:nth-child(2) {
+  font-family: "Recursive";
+  font-style: italic;
+  font-size: 71px;
+  font-weight: 400;
+  color: #FF7575;
+  margin: 40px 0 20px;
+}
+
+.foot>*:nth-child(3) {
+  font-size: 29px;
+}
