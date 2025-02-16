@@ -17,27 +17,27 @@ header {
   display: flex;
   flex-direction: column;
   color: white;
-  border-bottom: 3px solid #4D4D4D;
+  border-bottom: 3px solid rgba(77, 77, 77, .2);
   padding-bottom: 100px;
 }
 
-.head {
+#head {
   margin: 75px 0;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
 }
 
-.head>div {
+#head>div {
   display: flex;
   justify-content: space-between;
 }
 
-.head>div>p {
+#head>div>p {
   margin-left: 36px;
 }
 
-.foot {
+#foot {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -45,23 +45,67 @@ header {
   height: 400px;
 }
 
-.foot>* {
+#foot>* {
   margin: 0;
 }
 
-.foot img {
+#foot img {
   max-width: 200px;
 }
 
-.foot>*:nth-child(2) {
+#foot>*:nth-child(2) {
   font-family: "Recursive";
   font-style: italic;
   font-size: 71px;
   font-weight: 400;
   color: #FF7575;
   margin: 40px 0 20px;
+  text-wrap: wrap;
 }
 
-.foot>*:nth-child(3) {
+#foot>*:nth-child(3) {
   font-size: 29px;
+}
+
+#listing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 95px;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+}
+
+#listing-display {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+
+#listing-display>* {
+  margin: 0 5px;
+  width: 24px;
+}
+
+/* TODO: make the categories scroll with just mouse wheel */
+#listing-categories {
+  display: flex;
+  flex-direction: row;
+  font-family: "Recursive";
+  font-style: italic;
+  font-size: 27px;
+  color: #909090;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+
+  /* transform: rotate(-90deg);
+  transform-origin: right top; */
+}
+
+#listing-categories>* {
+  padding: 16px 18px;
+  /* transform: rotate(90deg);
+  transform-origin: right top; */
 }
