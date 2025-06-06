@@ -110,9 +110,13 @@ header {
   transform-origin: right top; */
 }
 
+/*  */
 #post-wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  /* --- for display: grid */
+  /* grid-template-columns: repeat(3, 1fr); */
+  justify-content: center;
 }
 
 .post {
@@ -125,6 +129,7 @@ header {
   width: 340px;
   padding: 25px;
   color: #0F1217;
+  margin: 18.5px;
 }
 
 .post>img {
