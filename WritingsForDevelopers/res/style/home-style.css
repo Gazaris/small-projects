@@ -114,8 +114,6 @@ header {
 #post-wrapper {
   display: flex;
   flex-wrap: wrap;
-  /* --- for display: grid */
-  /* grid-template-columns: repeat(3, 1fr); */
   justify-content: center;
 }
 
@@ -160,4 +158,38 @@ header {
   border-radius: 50%;
   background-color: #0F1217;
   margin: 0 20px;
+}
+
+#pagination {
+  margin-top: 96.5px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Recursive';
+  color: #909090;
+  font-size: 25px;
+  font-style: italic;
+  align-items: center;
+}
+
+#pagination>.pages {
+  display: flex;
+  flex-direction: row;
+  margin: 0 17px;
+  text-align: center;
+}
+
+#pagination>p {
+  margin: 0;
+}
+
+#pagination>.pages>p {
+  justify-content: center;
+  padding: 17px;
+}
+
+#pagination>.pages :nth-child(2) {
+  border-top: 3px solid #FF7575;
+  color: #FF7575;
+  font-weight: bolder;
+  padding-top: 14px;
 }
