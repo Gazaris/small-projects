@@ -162,6 +162,7 @@ header {
 
 #pagination {
   margin-top: 96.5px;
+  margin-bottom: 150px;
   display: flex;
   justify-content: center;
   font-family: 'Recursive';
@@ -185,6 +186,7 @@ header {
 #pagination>.pages>p {
   justify-content: center;
   padding: 17px;
+  margin: 0;
 }
 
 #pagination>.pages :nth-child(2) {
@@ -192,4 +194,42 @@ header {
   color: #FF7575;
   font-weight: bolder;
   padding-top: 14px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 3px solid #4D4D4D;
+  padding: 32px 220px;
+  margin-bottom: 100px;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+footer .badge {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 15px;
+  padding: 5px 13px;
+  background-color: black;
+  font-size: 19px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+footer .badge>img {
+  height: 20px;
+  margin-right: 5px;
+}
+
+footer .badge>p {
+  margin: 0;
+}
+
+footer .box {
+  display: flex;
+  flex-direction: row;
 }
