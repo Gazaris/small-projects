@@ -1,0 +1,52 @@
+.heading {
+  margin: 1rem 0 3rem 0;
+}
+
+.heading h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 8rem;
+  line-height: 1;
+  margin: 0 0 1rem 0;
+}
+
+.heading p {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin: 0;
+}
+
+.listing {
+  display: flex;
+  flex-direction: column;
+}
+
+.listing .link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--secondary-color);
+  transition: all .15s cubic-bezier(.4, 0, .2, 1);
+  padding: 16px 0;
+  border-bottom: 1px solid #737373;
+}
+
+.listing .link:last-child {
+  border-bottom: none;
+}
+
+.listing .link:hover {
+  color: white;
+}
+
+.listing .link :nth-child(1) {
+  color: white;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.listing .link :nth-child(2) {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
