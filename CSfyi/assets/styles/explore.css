@@ -1,0 +1,55 @@
+.heading {
+  margin: 1.75rem 0 1.25rem 0;
+}
+
+.heading h1 {
+  margin-bottom: 1.25rem;
+  color: white;
+  font-size: 3.75rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.heading p {
+  margin: 0;
+  color: #a3a3a3;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.tags h2 {
+  margin: 1.75rem 0 1rem 0;
+  color: #737373;
+  font-size: .75rem;
+  font-weight: normal;
+  letter-spacing: .025em;
+  text-transform: uppercase;
+}
+
+.tags .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tags .wrapper a {
+  margin: 0 .5rem .5rem 0;
+  border-radius: .5rem;
+  background-color: #262626;
+  padding: .375rem .75rem;
+  font-size: .875rem;
+  line-height: 1.25rem;
+}
+
+.tags .wrapper a:hover {
+  background-color: #a3a3a3;
+  color: black;
+}
+
+.tags .wrapper a span {
+  margin-left: .375rem;
+  color: #737373;
+}
+
+.tags .wrapper a:hover span {
+  color: black;
+}
