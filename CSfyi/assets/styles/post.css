@@ -1,0 +1,50 @@
+.heading {
+  display: flex;
+  flex-direction: column;
+  margin: 28px 0 40px 0;
+}
+
+.heading h1 {
+  color: white;
+  margin: 20px 0;
+  font-size: 3.75rem;
+  font-weight: 900;
+}
+
+.heading p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.heading .tags {
+  display: flex;
+  gap: .5rem;
+}
+
+.heading .tags a {
+  padding: 4px 14px;
+  color: #d4d4d4;
+  background-color: #404040;
+  border-radius: 20px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text {
+  font-size: 1.5rem;
+  line-height: 1.7;
+  color: #d4d4d4;
+}
+
+.text h2 {
+  font-size: 2em;
+  margin-top: 1.5em;
+  margin-bottom: .8em;
+  color: white;
+  margin: 72px 0 40px 0;
+}
+
+.text p {
+  margin-bottom: 32px;
+}
