@@ -1,3 +1,3 @@
-# Static Pages
+# Small Projects
 
-This repository is a storage for static pages replicated in traininig purposes.
+This repository is a small training projects storage
