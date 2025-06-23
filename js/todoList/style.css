@@ -1,0 +1,27 @@
+#control {
+  display: flex;
+  flex-direction: row;
+}
+
+#searchTask {
+  margin-left: 10px;
+}
+
+#wrapper {
+  margin-top: 20px;
+  width: 500px;
+  border: solid 1px white;
+}
+
+#wrapper .task {
+  padding: 5px 10px;
+  border-bottom: solid 1px white;
+}
+
+#wrapper .task:last-child {
+  border-bottom: none;
+}
+
+.hidden {
+  display: none;
+}

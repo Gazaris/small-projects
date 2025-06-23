@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>ToDo</title>
+  </head>
+  <body>
+    <h1>ToDo List</h1>
+    <div id="control">
+      <form id="addTask" onsubmit="addTask(event)">
+        <input type="text" name="name" />
+        <button type="submit">Add</button>
+      </form>
+      <form id="searchTask" onsubmit="searchTask(event)">
+        <input type="text" class="name" />
+        <button type="submit">Search</button>
+      </form>
+    </div>
+    <div id="wrapper" class="hidden"></div>
+    <h2 id="disclaimer">Add tasks to the list to see them here</h2>
+  </body>
+</html>
